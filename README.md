@@ -1,13 +1,14 @@
-<img src="https://github.com/jordanandree/instapaper-fluid/screenshot.png" width="300px" align="right" />
-
 ## Instapaper Fluid
+
+<img src="https://raw.github.com/jordanandree/instapaper-fluid/master/screenshot.png" width="300px" align="right" />
+
 
 Instapaper Userstyles for [Fluid](http://fluidapp.com/) to make Instapaper more "App-like". Allows you to have a dedicated app that simply skins the Instapaper account page where you can view all of your saved articles. 
 
 ### Requirements
 
-* Fluid Mac OS App - [http://fluidapp.com](http://fluid.com)
-* Instapaper Account - [http://instapaper.com](http://instapaper)
+* Fluid Mac OS App - [http://fluidapp.com](http://fluidapp.com)
+* Instapaper Account - [http://instapaper.com](http://instapaper.com)
 
 ### Setup
 
