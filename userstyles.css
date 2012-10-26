@@ -1,0 +1,162 @@
+/* Fonts */
+@import url(http://fonts.googleapis.com/css?family=Spinnaker|Fenix);
+
+body {
+  width: 100% !important;
+  font-size:.85;
+  line-height:1.5;
+  font-family:'Spinnaker', 'Helvetica Neue', Sans-serif !important;
+}
+
+a, a:hover {
+  -webkit-transition:all .13s ease-in-out;
+  transition:all .13s ease-in-out;
+}
+
+a:hover {
+  text-decoration:none !important;
+}
+
+/* Colors
+------------------------------------------------------ */
+.secondaryControls a.actionLink,
+.pagination a {
+  color:#4E7EBC !important;
+}
+.secondaryControls a.deleteLink {
+  color:#BC434E !important;
+}
+
+#categoryHeader a {
+  color:#888 !important;
+}
+
+.cornerControls .actionButton.archiveButton {
+  color:#BC434E !important;
+}
+
+/* Hide Elements
+------------------------------------------------------ */
+
+#header,
+#right_column,
+#footer,
+#bookmarkListDeckAd,
+#categoryHeader a:first-child,
+#paginationTop,
+.summary {
+    display: none !important;
+}
+
+/* Structural Elements
+------------------------------------------------------ */
+
+#content {
+    padding: 0em !important;
+}
+
+#left_column,
+#bookmark_list {
+    width: 100% !important;
+    float: none !important;
+}
+
+/* Main Navigation
+------------------------------------------------------ */
+
+#categoryHeader {
+  background:#fff;
+  margin:0 !important;
+  padding:20px;
+  text-transform:uppercase;
+  font-size:1em;
+  font-weight:normal !important;
+  float:none !important;
+  text-align:center;
+}
+
+
+#categoryHeader span {
+  font-size:1px !important;
+  text-indent:-999em !important;
+  color:#fff !important;
+  padding:0 5px;
+}
+
+/* Articles
+------------------------------------------------------ */
+
+.tableViewCellFirst, #bookmark_list > div:first-child {
+    -moz-border-radius-topleft: 0 !important;
+    -webkit-border-top-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    -moz-border-radius-topright: 0 !important;
+    -webkit-border-top-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.tableViewCell {
+  position:relative;
+  border: none !important;
+  border-bottom: 2px solid #f4f4f4 !important;
+  min-height:95px;
+}
+
+.tableViewCell .titleRow {
+  width:85% !important;
+  font:18px 'Georgia', serif !important;
+}
+.tableViewCell a:hover {
+  color:#4E7EBC !important;
+}
+
+.cornerControls {
+  position:absolute;
+  left:8px;
+  bottom:14px;
+  background:rgba(248, 248, 248,.75);
+  z-index:10;
+  width:auto !important;
+  opacity:.50;
+  -webkit-transition:opacity .23s ease-in-out;
+}
+
+.cornerControls .actionButton {
+  border:none !important;
+  width:auto !important;
+  padding:3px 6px !important;
+  background:transparent !important;
+}
+
+.cornerControls .actionButton:hover {
+  background:#fff !important;
+}
+
+.secondaryControls {
+  position:absolute !important;
+  right:15px;
+  bottom:17px;
+  opacity:.50;
+  -webkit-transition:opacity .23s ease-in-out;
+}
+
+.tableViewCell:hover .cornerControls,
+.tableViewCell:hover .secondaryControls {
+  opacity:1;
+}
+
+/* The Edit Form */
+form {
+  padding:0 2.5%;
+  width:93% !important;
+  margin:0 !important;
+}
+
+/* Super small Fluid < 450. Hides the Article domain */
+
+@media all and (max-width:450px) {
+  .secondaryControls .host:first-child,
+  .secondaryControls .separator:nth-child(2) {
+    display:none;
+  }
+}
